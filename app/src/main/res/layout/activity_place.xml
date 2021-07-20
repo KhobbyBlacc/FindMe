@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".PlaceActivity"
+    android:background="#2F918E8E">
+
+
+        <TextView
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="587dp"
+            android:ems="10"
+            android:layout_margin="8dp"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="Crime hotspots are areas on a map that have high crime intensity.They are developed for researchers and analysts to examine geographic areas in relation to crime.Ellipses are created now to show different levels of dispersion of crime incidents. They are always used in analysis to examine if there are any directional trends in the data set. First a user sets the size of the ellipses, typically for a crime data set on a map, miles are used. Following this, the user defines the standard deviation amount they want to use; this determines the number of data points wanted to be included in the ellipse. Typically one or two standard deviations are used; one standard deviation includes sixty-eight percent of the data, and two includes ninety-five percent of the data (Mitchell, 2005). "
+            android:textSize="20dp"/>
+
+
+    <TextView
+        android:id="@+id/producer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginBottom="0dp"
+        android:inputType="textPersonName"
+        android:text="findmeApp.powered by waltex.2019 "
+       android:textStyle="italic"/>
+
+</LinearLayout>
+
